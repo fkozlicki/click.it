@@ -8,4 +8,4 @@
 
 ## Description
 
-It is code repo of fully functional eCommerce application using commerce.js ans Stripe.
+It is code repo of fully functional eCommerce application using commerce.js ans Stripe. You can add and remove items from cart, fill form with shipping data and make an order using fake card number. It is a demo app so dont worry, it will not handle a real order.
