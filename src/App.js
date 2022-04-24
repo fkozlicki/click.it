@@ -6,7 +6,7 @@ import { Navbar, Products, Cart, Checkout } from "./components";
 import { commerce } from "./lib/commerce";
 
 const App = () => {
-	const [mobileOpen, setMobileOpen] = React.useState(false);
+	const [mobileOpen, setMobileOpen] = useState(false);
 	const [products, setProducts] = useState([]);
 	const [cart, setCart] = useState({});
 	const [order, setOrder] = useState({});
@@ -91,11 +91,7 @@ const App = () => {
 				/>
 				<Switch>
 					<Route exact path="/">
-						<Products
-							products={products}
-							onAddToCart={handleAddToCart}
-							handleUpdateCartQty
-						/>
+						<Products products={products} onAddToCart={handleAddToCart} />
 					</Route>
 					<Route exact path="/cart">
 						<Cart
