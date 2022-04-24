@@ -35,7 +35,6 @@ const Product = ({ product, onAddToCart }) => {
 				<Typography
 					dangerouslySetInnerHTML={{ __html: product.description }}
 					variant="body2"
-					color="#FFFFFF"
 					component="p"
 					className={classes.description}
 				/>
